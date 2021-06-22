@@ -3,8 +3,7 @@ import "./intro.scss"
 
 function Intro() {
     return (
-        <div className="intro">
-            dsjk
+        <div className="intro" id="intro">
         </div>
     )
 }
