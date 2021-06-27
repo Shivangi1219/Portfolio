@@ -1,8 +1,6 @@
 import React from 'react'
 import "./topbar.scss"
-import PersonIcon from '@material-ui/icons/Person';
-import MailIcon from '@material-ui/icons/Mail';
-
+import {Person,Mail} from "@material-ui/icons"
 function Topbar() {
     return (
         <div className="topbar">
@@ -10,11 +8,11 @@ function Topbar() {
                 <div className="left">
                     <a className="logo" href="#intro">Shivangi Singh</a>
                     <div className="itemContainer"> 
-                        <PersonIcon className="logo"/>
+                        <Person className="icon"/>
                         <span>+1 437 224 3374</span>
                     </div>
                     <div className="itemContainer"> 
-                        <MailIcon className="mail"/>
+                        <Mail className="icon"/>
                         <span>shivangipsingh12@gmail.com</span>
                     </div>
                 </div>
