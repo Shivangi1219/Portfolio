@@ -63,5 +63,10 @@
             }
         }
     }
+
+    &.active{
+        background-color: $mainColor;
+        color : white;
+    }
 }
 
